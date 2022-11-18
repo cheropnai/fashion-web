@@ -1,0 +1,280 @@
+
+
+#heading {
+   color: rgb(253, 255, 253);
+
+
+   text-align: left;
+   font: size 50px;
+   float: left; 
+  }
+  /*.List2 li:last-child {
+    border-left: none;
+  }*/
+  .list{
+    
+      list-style-type: none;
+      margin: 0;
+      padding: 15px;
+      overflow: hidden;
+      background-color:rgb(4, 66, 60);
+      font-size: 30px;
+      position: fixed;
+      width: 100%;
+    }
+    .list a {
+      float: right;
+      border-right:1px solid rgb(250, 251, 252);
+      display: block;
+      color: rgb(245, 241, 241);
+      background-color: #610e88;
+      text-align: center;
+      padding: 18px 16px;
+      text-decoration: none;
+    }
+    
+/*
+    .List2 {
+      list-style-type: none;
+      width: 100%;
+      float: right;
+      font-size: 30px;
+      border-right:1px solid rgb(250, 251, 252);
+      display: block;
+      color: rgb(245, 241, 241);
+      background-color: #610e88;
+    overflow: hidden;
+      padding: 15px;
+     position: sticky;
+    
+      
+      
+      
+      
+      
+    }
+    .List2  a {
+  float: left;
+  display: block;
+  border-left: 1px white;
+  color: aliceblue;
+  background-color: #1f8bd3;
+  text-align: center;
+  padding: 18px, 16 px;
+  text-decoration: none;
+
+
+
+    }*/
+    
+    .list a:last-child {
+      border-left: none;
+    }
+    
+    
+  
+   i {
+      display: block;
+      color: rgb(245, 241, 241);
+      background-color: #3d0e88;
+      text-align: center;
+      padding: 18px 16px;
+      text-decoration: none;
+    }
+     
+  .list input[type=text] {
+  border: 1px solid rgb(185, 62, 159);
+  border: centre;
+  float:left;
+  display: block;
+  text-align: center;
+  width: 40%;
+  margin: 0;
+  padding: 20px;
+}
+
+ a:visited {
+  text-align: right;
+  background-color: #7e2cad;
+  
+  padding: 5px 5px;
+  text-align: center;
+  
+  text-size-adjust: 20px;
+  display: inline-block;
+  font-size: larger;
+  font-weight: bold;
+}
+  
+ 
+    
+
+
+a:active {
+  background-color: rgb(247, 90, 17);
+}
+
+/* Change the link color to #111 (black) on hover */
+.list a:hover {
+    background-color: rgb(84, 74, 126);
+  }
+  .list i:hover{
+    background-color: rgb(231, 156, 57);
+    
+  }
+ /* .List2 a,i:hover{
+ background-color: #eb158b;
+
+  }
+  .List2 a,:visited{
+    background-color: #555;
+  
+
+  
+  
+/* style for the css menu dropdown container */
+/* style for the button */
+
+.dec{
+float: centre;
+
+
+}
+  
+  
+
+ 
+ 
+  
+  
+  
+  
+  
+  input:read-only{
+    
+    
+    background-color: aqua;
+    
+  }
+  input:hover, input :active{
+    
+    background-color:beige
+  }
+  
+  span{
+    background-color: #db21a3;
+
+}
+
+
+
+    
+      .h3{
+    
+        color: black;
+      
+      font-weight: 80px;
+      font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: offset 10px; ;
+     /* outline-style: groove;
+      outline-color: black;
+      outline: width 15px;
+      line-height: 2.5em; */}
+      .eta1{
+
+        list-style-type: none;
+        margin: 0;
+        padding: 50px;
+        overflow: hidden;
+        
+        font-size: 60px;
+        column-count: 2;
+        width: 100%;
+        color: black;
+        column-gap: 50px;
+
+      }
+      .eta2{
+        float:left;
+        background-color: rgb(238, 46, 180);
+        will-change: transform;
+    transition: transform 450ms;
+    font-size: 60px;
+
+      }
+      .eta2 :hover{
+
+    background-color: orange;
+    
+    transition: transform 150ms;
+    transform: translateY(-10px);
+    
+
+      }
+      .eta3{
+        float:right;
+        background-color: #ec2790;
+        font-size: 60px;
+        
+        color: black;
+   
+
+      }
+      
+     
+      .eta3 :hover{
+        background-color: orange;
+       
+      }
+      fieldset{
+
+       /*column-count: 2;
+       column-gap: 50px;
+       */
+        color: white;
+        font-size: 50px;
+        background-color: #96305e;
+      }
+      input{
+
+        font-size: 50px;
+      }
+      .uvt {
+        margin: 0 auto;
+        font-size: xx-large;
+        border: 1px solid black;
+        
+    }
+
+   .uvt h1 {
+        text-align: center;
+        background-color:pink;
+        color: white;
+        font-size: xx-large;
+        font-family: 'Gill Sans', 'Gill Sans MT',
+        ' Calibri', 'Trebuchet MS', 'sans-serif';
+    }
+
+    .uvt td {
+        background-color:lightcyan;
+        border: 1px solid black;
+    }
+    .uvt th,
+    .uvt td {
+        font-weight: bold;
+        border: 1px lightcoral;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .uvt td {
+        font-weight: lighter;
+    }
+    .uvt .but{
+        font-size: xx-large;
+        background-color: aqua;
+    }
+    .uvt .but:hover{
+        background-color:lightgreen ;
+    }
